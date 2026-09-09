@@ -9,18 +9,22 @@ body {
 }
 
 header, footer {
-    background-color: #1949e7;
+    background-color:darkblue;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-nav a {
-    color: white;
-    display: inline-block;
-    padding: 20px;
+nav {
+    background-color: darkblue;
+    padding: 10px;
 }
 
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
 h1 {
     color: darkblue;
     text-align: center;
@@ -66,7 +70,7 @@ p {
 }
 
 footer {
-    background-color: #1949e7;
+    background-color: darkblue;
     color: white;
     margin-top: 15px;
     border-top: 1px solid #000;
