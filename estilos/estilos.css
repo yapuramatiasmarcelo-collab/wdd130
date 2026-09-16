@@ -1,79 +1,195 @@
+/* Reset CSS do meu projeto */
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
+    color: #222;
 }
 
-header, footer {
-    background-color:darkblue;
-    color: #fff;
-    text-align: center;
+
+/* Cabeçalho */
+
+header {
+    background-color: darkblue;
     padding: 20px;
 }
 
+
+/* Navegação */
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    max-width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 nav a {
     color: white;
-    display: block;
-    padding: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
 }
-h1 {
+
+nav a:hover {
+    background-color: white;
     color: darkblue;
-    text-align: center;
-    margin: 15px 0;
+    border-radius: 5px;
 }
+
+
+/* Conteúdo principal */
 
 main {
     max-width: 840px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
 }
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+/* Foto de perfil */
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 15px 25px;
+    border: 1px solid #333;
+    padding: 3px;
+    box-shadow: 0 0 15px gray;
 }
+
+
+/* Parágrafos */
 
 main p {
     margin: 15px 0;
-    line-height: 1.5;
+    line-height: 1.6;
 }
+
+
+/* Lista dos templos */
+
+main ul {
+    clear: both;
+    max-width: 600px;
+    margin: 25px auto;
+    line-height: 1.7;
+}
+
+main ul li {
+    margin-left: 20px;
+}
+
+
+/* Estado / País */
 
 aside {
-    width: 20rem;
-    margin: 1rem auto;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    position: relative;
 }
 
-aside img {
-    width: 200px;
+
+/* Conteúdo da Argentina */
+
+.argentina-conteudo {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+/* Área da imagem */
+
+.argentina-imagem {
+    width: 260px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+/* Imagem da Argentina */
+
+.argentina-imagem img {
+    width: 100%;
     height: auto;
+    display: block;
+    border-radius: 5px;
 }
 
-p {
-    padding: 0;
+
+/* Título sobre a imagem */
+
+.argentina-imagem h2 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+    color: white;
+    background-color: rgb(0 0 0 / 60%);
+
+    padding: 6px 12px;
+    border-radius: 5px;
 }
+
+
+/* Texto ao lado da imagem */
+
+.argentina-conteudo p {
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+/* Rodapé */
 
 footer {
     background-color: darkblue;
     color: white;
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Seletores de Classe */
+
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+
+/* Identação usada na aula */
+
+.identacao {
+    padding-left: 2rem;
+}
+
+
+/* Ajuste específico da caixa Argentina */
+
+aside.caixa {
+    width: 700px;
+    margin: 25px auto;
 }
