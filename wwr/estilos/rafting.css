@@ -1,0 +1,191 @@
+/* =========================
+   VARIÁVEIS GERAIS
+   ========================= */
+
+:root {
+    --cor-primaria: #055a05; /* verde-floresta */
+    --cor-secundaria: #f4a261; /* bege médio */
+    --cor-destaque1: #264653; /* azul-escuro acinzentado */
+    --cor-destaque2: #e9c46a; /* amarelo-claro dourado */
+
+    --fonte-titulo: "Times New Roman", "Georgia", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   RESET CSS
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   ESTILO GERAL DO BODY
+   ========================= */
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1);
+}
+
+
+/* =========================
+   LARGURA E CENTRALIZAÇÃO
+   ========================= */
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+h1,
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+
+/* =========================
+   ESPAÇAMENTO DOS ELEMENTOS
+   ========================= */
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+
+/* =========================
+   REDES SOCIAIS
+   ========================= */
+
+.redes-sociais a {
+    text-decoration: none;
+}
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    position: relative;
+}
+
+
+/* =========================
+   IMAGEM PRINCIPAL DO HERO
+   ========================= */
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* =========================
+   TÍTULO SOBRE A HERO
+   ========================= */
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+
+    text-align: center;
+    background-color: rgba(38, 70, 83, 0.8);
+    color: #fff;
+}
+
+
+/* =========================
+   ARTICLE SOBRE A HERO
+   ========================= */
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+
+    background-color: rgba(255, 255, 255, 0.85);
+    color: var(--cor-destaque1);
+}
+
+
+/* =========================
+   IMAGEM DENTRO DO ARTICLE
+   ========================= */
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 16px;
+}
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 12px;
+}
+
+.redes-sociais img {
+    width: 32px;
+}
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    padding: 10px 16px;
+}
+
+header > img {
+    width: 90px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cor-destaque1);
+    font-weight: bold;
+}
