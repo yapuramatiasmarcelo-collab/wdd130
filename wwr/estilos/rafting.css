@@ -184,8 +184,6 @@ header nav {
     padding: 0;
 }
 
-header nav a {
-    text-decoration: none;
-    color: var(--cor-destaque1);
-    font-weight: bold;
+header nav a:hover {
+    color: var(--cor-destaque2);
 }
