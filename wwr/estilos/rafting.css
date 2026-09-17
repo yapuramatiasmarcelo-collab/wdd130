@@ -159,6 +159,10 @@ footer {
 .redes-sociais img {
     width: 32px;
 }
+
+footer a {
+    text-decoration: none;
+}
 /* =========================
    HEADER
    ========================= */
