@@ -13,6 +13,24 @@ body {
 }
 
 
+/* Limite e centralização da página */
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+
+/* Grade principal */
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+
 /* Cabeçalho */
 
 header {
@@ -24,17 +42,20 @@ header {
 /* Navegação */
 
 nav {
-    max-width: 840px;
-    margin: 0 auto;
+    background-color: steelblue;
+    padding: 1rem;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    display: block;
+    padding: 0.5rem;
     text-decoration: none;
-    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
     transition: 0.3s;
 }
 
@@ -48,8 +69,8 @@ nav a:hover {
 /* Conteúdo principal */
 
 main {
-    max-width: 840px;
-    margin: 25px auto;
+    grid-column: 2 / 3;
+    margin: 1rem;
     padding: 25px;
     background-color: white;
     border-radius: 8px;
@@ -60,6 +81,7 @@ h1 {
     color: darkblue;
     text-align: center;
     margin-bottom: 25px;
+    border-bottom: 1px solid darkblue;
 }
 
 
@@ -101,7 +123,10 @@ main ul li {
 /* Estado / País */
 
 aside {
+    width: 20rem;
     position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 
@@ -109,16 +134,17 @@ aside {
 
 .argentina-conteudo {
     display: flex;
-    align-items: flex-start;
-    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 
 /* Área da imagem */
 
 .argentina-imagem {
-    width: 260px;
-    flex-shrink: 0;
+    width: 100%;
+    max-width: 260px;
     position: relative;
 }
 
@@ -139,22 +165,20 @@ aside {
     position: absolute;
     top: 15px;
     left: 15px;
-
     color: white;
     background-color: rgb(0 0 0 / 60%);
-
     padding: 6px 12px;
     border-radius: 5px;
 }
 
 
-/* Texto ao lado da imagem */
+/* Texto da Argentina */
 
 .argentina-conteudo p {
-    flex: 1;
     margin: 0;
     line-height: 1.6;
     text-align: left;
+    padding-left: 0;
 }
 
 
@@ -169,7 +193,7 @@ footer {
 }
 
 
-/* Seletores de Classe */
+/* Seletores de classe */
 
 .caixa {
     margin: 1rem;
@@ -184,12 +208,4 @@ footer {
 
 .identacao {
     padding-left: 2rem;
-}
-
-
-/* Ajuste específico da caixa Argentina */
-
-aside.caixa {
-    width: 700px;
-    margin: 25px auto;
 }
