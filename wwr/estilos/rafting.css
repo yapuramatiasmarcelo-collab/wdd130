@@ -75,7 +75,7 @@ article {
    REDES SOCIAIS
    ========================= */
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 /* =========================
@@ -151,12 +151,12 @@ footer {
     padding: 16px;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 12px;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 32px;
 }
 
@@ -208,6 +208,7 @@ header nav a {
 header nav a:hover {
     color: #fff;
     background-color: var(--cor-destaque1);
+    border-color: var(--cor-destaque2);
 }
 
 /* =========================
