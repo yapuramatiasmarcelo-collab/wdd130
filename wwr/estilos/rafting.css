@@ -285,3 +285,136 @@ header nav a:hover {
     margin-top: 6px;
     font-size: 0.85rem;
 }
+
+/* =========================
+   PÁGINA DE CONTATO
+   ========================= */
+
+.empresa {
+    margin: 28px 16px 8px;
+    padding: 0;
+    text-align: center;
+}
+
+.empresa p {
+    margin: 8px 0 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.empresa a {
+    color: var(--cor-primaria);
+}
+
+.contato-grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    align-items: center;
+    margin: 8px 16px 24px;
+    padding: 0;
+}
+
+.mapa {
+    width: 100%;
+    height: 320px;
+    border: 1px solid var(--cor-destaque1);
+}
+
+.formulario {
+    display: grid;
+    gap: 14px;
+}
+
+.campo {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 8px 12px;
+    align-items: center;
+}
+
+.campo-motivo {
+    align-items: start;
+}
+
+.campo-mensagem {
+    grid-template-columns: 1fr;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--cor-destaque1);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--cor-destaque1);
+}
+
+.radios {
+    display: grid;
+    gap: 6px;
+}
+
+.radios label,
+.campo-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.formulario button[type="submit"] {
+    width: 100%;
+    padding: 12px 16px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--cor-destaque1);
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-destaque1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button[type="submit"]:hover,
+.formulario button[type="submit"]:focus-visible {
+    color: #fff;
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+.equipe {
+    margin: 8px 16px 28px;
+    padding: 16px;
+    border: 1px solid var(--cor-destaque1);
+    text-align: center;
+}
+
+.equipe h2 {
+    margin-bottom: 16px;
+}
+
+.perfis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.perfis figure {
+    margin: 0;
+}
+
+.perfis img {
+    display: block;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.perfis figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1180" viewBox="0 0 900 1180">
+  <rect width="900" height="1180" fill="#ffffff"/>
+  <rect x="40" y="24" width="820" height="96" fill="#e6d9f5" stroke="#b9a4d6" stroke-width="2"/>
+  <rect x="64" y="42" width="72" height="60" fill="#f3f3f3" stroke="#b5b5b5"/>
+  <path d="M78 86 L100 62 L122 86 Z" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+  <circle cx="116" cy="56" r="6" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#333333" text-anchor="middle">
+    <rect x="250" y="52" width="120" height="36" fill="#ffffff" stroke="#777777"/>
+    <text x="310" y="75">P&#225;gina Inicial</text>
+    <rect x="382" y="52" width="110" height="36" fill="#ffffff" stroke="#777777"/>
+    <text x="437" y="75">Sobre N&#243;s</text>
+    <rect x="504" y="52" width="100" height="36" fill="#ffffff" stroke="#777777"/>
+    <text x="554" y="75">Passeios</text>
+    <rect x="616" y="52" width="130" height="36" fill="#ffffff" stroke="#777777"/>
+    <text x="681" y="75">Fale Conosco</text>
+  </g>
+  <g font-family="Georgia, Times New Roman, serif" fill="#222222" text-anchor="middle">
+    <text x="450" y="168" font-size="26">Companhia de Rafting em Corredeiras</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#222222" text-anchor="middle">
+    <text x="450" y="196">Av. Sete de Setembro, 3399</text>
+    <text x="450" y="216">Curitiba, Paran&#225;</text>
+    <text x="450" y="236">+55 41 99999-9999</text>
+    <text x="450" y="256">info@correiras.com</text>
+  </g>
+  <rect x="70" y="284" width="340" height="300" fill="#f4f4f4" stroke="#b5b5b5"/>
+  <g stroke="#d5d5d5" stroke-width="3">
+    <path d="M90 340 H390"/>
+    <path d="M90 400 H390"/>
+    <path d="M90 460 H390"/>
+    <path d="M90 520 H390"/>
+    <path d="M140 304 V564"/>
+    <path d="M210 304 V564"/>
+    <path d="M280 304 V564"/>
+    <path d="M350 304 V564"/>
+  </g>
+  <path d="M230 390 C222 390 216 398 216 406 C216 420 230 438 230 438 C230 438 244 420 244 406 C244 398 238 390 230 390 Z" fill="#444444"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#333333">
+    <text x="430" y="312">Nome</text>
+    <rect x="560" y="294" width="270" height="28" fill="#ffffff" stroke="#777777"/>
+    <text x="572" y="313" fill="#888888">Digite aqui</text>
+    <text x="430" y="352">E-mail</text>
+    <rect x="560" y="334" width="270" height="28" fill="#ffffff" stroke="#777777"/>
+    <text x="572" y="353" fill="#888888">Digite aqui</text>
+    <text x="430" y="392">Prop&#243;sito da</text>
+    <text x="430" y="410">Mensagem</text>
+    <circle cx="572" cy="388" r="7" fill="#ffffff" stroke="#555555"/>
+    <circle cx="572" cy="388" r="3" fill="#555555"/>
+    <text x="588" y="393">Consulta Geral</text>
+    <circle cx="572" cy="414" r="7" fill="#ffffff" stroke="#555555"/>
+    <text x="588" y="419">Pergunta sobre Reserva</text>
+    <circle cx="572" cy="440" r="7" fill="#ffffff" stroke="#555555"/>
+    <text x="588" y="445">Sugest&#227;o de Site</text>
+    <text x="430" y="478">Mensagem</text>
+    <rect x="430" y="488" width="400" height="70" fill="#ffffff" stroke="#777777"/>
+    <text x="442" y="510" fill="#888888">Digite aqui</text>
+    <rect x="430" y="574" width="14" height="14" fill="#ffffff" stroke="#555555"/>
+    <text x="452" y="586">Quero receber a newsletter mensal</text>
+    <rect x="430" y="604" width="400" height="36" fill="#d9d9d9" stroke="#777777"/>
+    <text x="630" y="627" text-anchor="middle" font-weight="700">Entrar em Contato!</text>
+  </g>
+  <rect x="70" y="680" width="760" height="250" fill="#f7f7f7" stroke="#b5b5b5"/>
+  <text x="450" y="718" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" fill="#222222">Estamos Aqui para Serv&#237;-lo</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333" text-anchor="middle">
+    <rect x="120" y="746" width="170" height="100" fill="#e8e8e8" stroke="#b5b5b5"/>
+    <circle cx="205" cy="786" r="16" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+    <path d="M184 830 Q205 808 226 830" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+    <text x="205" y="866">Marina Alves</text>
+    <text x="205" y="884">Guia-chefe</text>
+    <rect x="365" y="746" width="170" height="100" fill="#e8e8e8" stroke="#b5b5b5"/>
+    <circle cx="450" cy="786" r="16" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+    <path d="M429 830 Q450 808 471 830" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+    <text x="450" y="866">Paulo Nogueira</text>
+    <text x="450" y="884" font-size="12">Coordenador de seguran&#231;a</text>
+    <rect x="610" y="746" width="170" height="100" fill="#e8e8e8" stroke="#b5b5b5"/>
+    <circle cx="695" cy="786" r="16" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+    <path d="M674 830 Q695 808 716 830" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+    <text x="695" y="866">Helena Duarte</text>
+    <text x="695" y="884">Atendimento ao cliente</text>
+  </g>
+  <rect x="40" y="960" width="820" height="72" fill="#e6d9f5" stroke="#b9a4d6" stroke-width="2"/>
+  <text x="280" y="1002" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#333333">Rodap&#233; com &#237;cones de m&#237;dia social</text>
+  <g fill="none" stroke="#666666" stroke-width="2">
+    <rect x="690" y="978" width="36" height="36"/>
+    <rect x="738" y="978" width="36" height="36"/>
+    <rect x="786" y="978" width="36" height="36"/>
+    <path d="M698 1006 L714 996 L714 1014 Z"/>
+    <circle cx="756" cy="996" r="6"/>
+    <path d="M794 990 L814 1014 M814 990 L794 1014"/>
+  </g>
+</svg>
