@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Formulário HTML - Matias M. Yapura</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Formulário HTML - Matias M. Yapura</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Informações de Contato</legend>
+                <label for="nome-completo">Nome Completo:</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+                <label for="emaildousuario">Email:</label>
+                <input type="email" id="emaildousuario" name="emaildousuario" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Perguntas</legend>
+                <label for="navegador">Qual é o seu navegador de internet favorito?</label>
+                <select name="navegador" id="navegador">
+                    <option value="" selected disabled>Escolha...</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="pet">Você tem um bichinho de estimação em casa?</label>
+                <input type="checkbox" id="pet" name="pet">
+
+                <label for="feedback">Liste os lugares onde você morou:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Flórida,&#10;Amsterdã Holanda,&#10;Tibuktu Mali"></textarea>
+            </fieldset>
+
+            <button type="submit">Enviar Pesquisa</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2026 | Formulário HTML| Matias M. Yapura</p>
+    </footer>
+</body>
+
+</html>
