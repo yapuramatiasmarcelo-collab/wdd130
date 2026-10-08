@@ -90,11 +90,10 @@ header {
     background-color: #163A4A;
 }
 
-@supports ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
+@supports (backdrop-filter: blur(10px)) {
     header {
         background-color: rgba(22, 58, 74, 0.92);
         backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
     }
 }
 
