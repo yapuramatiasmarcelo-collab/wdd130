@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Fale Conosco | Companhia de Rafting em Corredeiras</title>
+    <title>Fale Conosco | Aventura das Águas</title>
 
     <meta
         name="description"
-        content="Fale com a Companhia de Rafting em Corredeiras em Curitiba. Veja endereço, telefone e e-mail, e envie dúvidas, perguntas sobre reservas ou sugestões."
+        content="Fale com a Aventura das Águas em Curitiba. Veja endereço, telefone e e-mail, e envie dúvidas, perguntas sobre reservas ou sugestões."
     >
     <meta name="author" content="Matías Marcelo Yapura">
 
@@ -20,31 +20,40 @@
 
     <header>
 
-        <img
-            src="imagens/logo_rafting.png"
-            alt="Logotipo da empresa de rafting"
-        >
+        <div class="topo">
 
-        <nav>
-            <a href="index.html">Página Inicial</a>
-            <a href="sobre.html">Sobre Nós</a>
-            <a href="passeios.html">Passeios</a>
-            <a href="contato.html">Fale Conosco</a>
-        </nav>
+            <a class="marca" href="index.html">
+                <img
+                    src="imagens/logo_rafting.png"
+                    alt="Logotipo da Aventura das Águas"
+                >
+            </a>
+
+            <nav aria-label="Principal">
+                <a href="index.html">Página Inicial</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="passeios.html">Passeios</a>
+                <a href="contato.html" aria-current="page">Fale Conosco</a>
+            </nav>
+
+        </div>
 
     </header>
 
     <main>
 
+        <section class="faixa faixa-clara">
+            <div class="conteudo">
+
         <section class="empresa">
 
-            <h1>Companhia de Rafting em Corredeiras</h1>
+            <h1>Aventura das Águas</h1>
 
             <p>
                 Av. Sete de Setembro, 3399<br>
                 Curitiba, Paraná<br>
                 <a href="tel:+5541999999999">+55 41 99999-9999</a><br>
-                <a href="mailto:info@correiras.com">info@correiras.com</a>
+                <a href="mailto:contato@aventuradasaguas.com.br">contato@aventuradasaguas.com.br</a>
             </p>
 
         </section>
@@ -54,7 +63,7 @@
             <iframe
                 class="mapa"
                 src="https://maps.google.com/maps?q=Av.+Sete+de+Setembro,+3399,+Curitiba,+Paran%C3%A1&amp;hl=pt&amp;z=16&amp;output=embed"
-                title="Mapa da sede da Companhia de Rafting em Corredeiras na Av. Sete de Setembro, 3399, Curitiba"
+                title="Mapa da sede da Aventura das Águas na Av. Sete de Setembro, 3399, Curitiba"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
@@ -85,9 +94,9 @@
                     >
                 </div>
 
-                <div class="campo campo-motivo">
-                    <span id="rotulo-motivo">Propósito da Mensagem</span>
-                    <div class="radios" role="radiogroup" aria-labelledby="rotulo-motivo">
+                <fieldset class="campo campo-motivo">
+                    <legend>Propósito da Mensagem</legend>
+                    <div class="radios">
                         <label for="consulta-geral">
                             <input
                                 type="radio"
@@ -117,7 +126,7 @@
                             Sugestão de Site
                         </label>
                     </div>
-                </div>
+                </fieldset>
 
                 <div class="campo campo-mensagem">
                     <label for="mensagem">Mensagem</label>
@@ -141,16 +150,22 @@
 
         </section>
 
+            </div>
+        </section>
+
+        <section class="faixa faixa-suave">
+            <div class="conteudo">
+
         <section class="equipe">
 
-            <h2>Estamos Aqui para Serví-lo</h2>
+            <h2>Estamos Aqui para servi-lo</h2>
 
             <div class="perfis">
 
                 <figure>
                     <img
                         src="imagens/historia.jpg"
-                        alt="Guia-chefe com a equipe em um bote de rafting"
+                        alt="Equipe posando em um bote laranja na margem do rio"
                     >
                     <figcaption>Marina Alves<br>Guia-chefe</figcaption>
                 </figure>
@@ -158,7 +173,7 @@
                 <figure>
                     <img
                         src="imagens/rafting_2.jpg"
-                        alt="Coordenador de segurança acompanhando um grupo no rio"
+                        alt="Grupo remando em um bote nas corredeiras"
                     >
                     <figcaption>Paulo Nogueira<br>Coordenador de segurança</figcaption>
                 </figure>
@@ -166,7 +181,7 @@
                 <figure>
                     <img
                         src="imagens/aventura2.jpg"
-                        alt="Atendente orientando clientes durante um passeio de rafting"
+                        alt="Cinco pessoas em um bote vermelho entre rochas"
                     >
                     <figcaption>Helena Duarte<br>Atendimento ao cliente</figcaption>
                 </figure>
@@ -175,38 +190,66 @@
 
         </section>
 
+            </div>
+        </section>
+
     </main>
 
     <footer>
 
-        <p>
+        <div class="rodape-grade">
+
+            <div class="rodape-marca">
+                <p class="rodape-nome">Aventura das Águas</p>
+                <p>
+                    Passeios de rafting saindo de Curitiba, com equipe
+                    preparada para famílias, amigos e aventureiros.
+                </p>
+            </div>
+
+            <nav class="rodape-paginas" aria-label="Páginas do site">
+                <p class="rodape-titulo">Páginas</p>
+                <a href="index.html">Página Inicial</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="passeios.html">Passeios</a>
+                <a href="contato.html">Fale Conosco</a>
+            </nav>
+
+            <div class="rodape-contato">
+                <p class="rodape-titulo">Contato</p>
+                <a href="tel:+5541999999999">+55 41 99999-9999</a>
+                <a href="mailto:contato@aventuradasaguas.com.br">contato@aventuradasaguas.com.br</a>
+                <nav class="redes-sociais" aria-label="Redes sociais">
+
+                    <a href="https://facebook.com">
+                        <img
+                            src="imagens/icon-facebook.svg"
+                            alt="Facebook"
+                        >
+                    </a>
+
+                    <a href="https://linkedin.com">
+                        <img
+                            src="imagens/icon-linkedin.svg"
+                            alt="LinkedIn"
+                        >
+                    </a>
+
+                    <a href="https://instagram.com">
+                        <img
+                            src="imagens/icon-instagram.svg"
+                            alt="Instagram"
+                        >
+                    </a>
+
+                </nav>
+            </div>
+
+        </div>
+
+        <p class="rodape-copy">
             © 2026 Aventura das Águas | Matías Marcelo Yapura
         </p>
-
-        <nav class="redes-sociais">
-
-            <a href="https://facebook.com">
-                <img
-                    src="imagens/icon-facebook.svg"
-                    alt="Ícone do Facebook"
-                >
-            </a>
-
-            <a href="https://linkedin.com">
-                <img
-                    src="imagens/icon-linkedin.svg"
-                    alt="Ícone do LinkedIn"
-                >
-            </a>
-
-            <a href="https://instagram.com">
-                <img
-                    src="imagens/icon-instagram.svg"
-                    alt="Ícone do Instagram"
-                >
-            </a>
-
-        </nav>
 
     </footer>
 

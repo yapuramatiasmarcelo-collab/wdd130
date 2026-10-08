@@ -9,7 +9,7 @@
 
     <meta
         name="description"
-        content="Conheça nossa empresa de rafting, nossa história e nossas aventuras."
+        content="Conheça a Aventura das Águas, nossa história e nossas aventuras de rafting."
     >
     <meta name="author" content="Matías Marcelo Yapura">
 
@@ -20,37 +20,40 @@
 
     <header>
 
-        <img
-            src="imagens/logo_rafting.png"
-            alt="Logotipo da empresa de rafting"
-        >
+        <div class="topo">
 
-        <nav>
-            <a href="index.html">Página Inicial</a>
-            <a href="sobre.html">Sobre Nós</a>
-            <a href="passeios.html">Passeios</a>
-            <a href="contato.html">Fale Conosco</a>
-        </nav>
+            <a class="marca" href="index.html">
+                <img
+                    src="imagens/logo_rafting.png"
+                    alt="Logotipo da Aventura das Águas"
+                >
+            </a>
+
+            <nav aria-label="Principal">
+                <a href="index.html">Página Inicial</a>
+                <a href="sobre.html" aria-current="page">Sobre Nós</a>
+                <a href="passeios.html">Passeios</a>
+                <a href="contato.html">Fale Conosco</a>
+            </nav>
+
+        </div>
 
     </header>
 
     <main>
 
-        <div class="hero">
+        <div class="hero hero-banner">
 
             <img
                 src="imagens/rafting_grupo.jpg"
-                alt="Grupo praticando rafting em um rio"
+                alt="Vários grupos descendo corredeiras em botes de rafting"
             >
 
-            <h1>Aventura das Águas</h1>
+            <div class="hero-conteudo">
 
-            <article>
+                <p class="hero-apoio">Sobre nós</p>
 
-                <img
-                    src="imagens/rafting_2.jpg"
-                    alt="Cliente feliz durante uma aventura de rafting"
-                >
+                <h1>Aventura das Águas</h1>
 
                 <p>
                     Nossa missão é proporcionar aventuras seguras, emocionantes
@@ -58,9 +61,18 @@
                     rafting.
                 </p>
 
-            </article>
+                <img
+                    class="hero-secundaria"
+                    src="imagens/rafting_2.jpg"
+                    alt="Grupo remando em um bote nas corredeiras"
+                >
+
+            </div>
 
         </div>
+
+        <section class="faixa faixa-clara">
+            <div class="conteudo">
 
         <section class="historia">
 
@@ -75,7 +87,7 @@
 
             <img
                 src="imagens/historia.jpg"
-                alt="Equipe durante uma aventura de rafting"
+                alt="Equipe posando em um bote laranja na margem do rio"
             >
 
             <p>
@@ -86,6 +98,12 @@
 
         </section>
 
+            </div>
+        </section>
+
+        <section class="faixa faixa-suave">
+            <div class="conteudo">
+
         <section class="aventuras">
 
             <h2>A aventura está te esperando!</h2>
@@ -95,7 +113,7 @@
                 <figure>
                     <img
                         src="imagens/aventura1.jpg"
-                        alt="Rafting no Salto do Rio Negro"
+                        alt="Bote amarelo com grupo descendo uma corredeira de água azul"
                     >
                     <figcaption>Salto do Rio Negro</figcaption>
                 </figure>
@@ -103,7 +121,7 @@
                 <figure>
                     <img
                         src="imagens/aventura2.jpg"
-                        alt="Rafting no Rio Paranapanema"
+                        alt="Cinco pessoas em um bote vermelho entre rochas"
                     >
                     <figcaption>Rio Paranapanema</figcaption>
                 </figure>
@@ -111,7 +129,7 @@
                 <figure>
                     <img
                         src="imagens/aventura3.jpg"
-                        alt="Rafting no Rio Jacaré"
+                        alt="Grupo acenando em um bote vermelho nas corredeiras"
                     >
                     <figcaption>Rio Jacaré</figcaption>
                 </figure>
@@ -119,7 +137,7 @@
                 <figure>
                     <img
                         src="imagens/aventura4.jpg"
-                        alt="Rafting na Cachoeira do Sol"
+                        alt="Vários botes de rafting em um rio calmo cercado de mata"
                     >
                     <figcaption>Cachoeira do Sol</figcaption>
                 </figure>
@@ -127,7 +145,7 @@
                 <figure>
                     <img
                         src="imagens/aventura5.jpg"
-                        alt="Remos preparados para uma aventura de rafting"
+                        alt="Remos amarelo e azul tocando a água do rio"
                     >
                     <figcaption>Corredeiras da Serra</figcaption>
                 </figure>
@@ -136,38 +154,66 @@
 
         </section>
 
+            </div>
+        </section>
+
     </main>
 
     <footer>
 
-        <p>
+        <div class="rodape-grade">
+
+            <div class="rodape-marca">
+                <p class="rodape-nome">Aventura das Águas</p>
+                <p>
+                    Passeios de rafting saindo de Curitiba, com equipe
+                    preparada para famílias, amigos e aventureiros.
+                </p>
+            </div>
+
+            <nav class="rodape-paginas" aria-label="Páginas do site">
+                <p class="rodape-titulo">Páginas</p>
+                <a href="index.html">Página Inicial</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="passeios.html">Passeios</a>
+                <a href="contato.html">Fale Conosco</a>
+            </nav>
+
+            <div class="rodape-contato">
+                <p class="rodape-titulo">Contato</p>
+                <a href="tel:+5541999999999">+55 41 99999-9999</a>
+                <a href="mailto:contato@aventuradasaguas.com.br">contato@aventuradasaguas.com.br</a>
+                <nav class="redes-sociais" aria-label="Redes sociais">
+
+                    <a href="https://facebook.com">
+                        <img
+                            src="imagens/icon-facebook.svg"
+                            alt="Facebook"
+                        >
+                    </a>
+
+                    <a href="https://linkedin.com">
+                        <img
+                            src="imagens/icon-linkedin.svg"
+                            alt="LinkedIn"
+                        >
+                    </a>
+
+                    <a href="https://instagram.com">
+                        <img
+                            src="imagens/icon-instagram.svg"
+                            alt="Instagram"
+                        >
+                    </a>
+
+                </nav>
+            </div>
+
+        </div>
+
+        <p class="rodape-copy">
             © 2026 Aventura das Águas | Matías Marcelo Yapura
         </p>
-
-        <nav class="redes-sociais">
-
-            <a href="https://facebook.com">
-                <img
-                    src="imagens/icon-facebook.svg"
-                    alt="Ícone do Facebook"
-                >
-            </a>
-
-            <a href="https://linkedin.com">
-                <img
-                    src="imagens/icon-linkedin.svg"
-                    alt="Ícone do LinkedIn"
-                >
-            </a>
-
-            <a href="https://instagram.com">
-                <img
-                    src="imagens/icon-instagram.svg"
-                    alt="Ícone do Instagram"
-                >
-            </a>
-
-        </nav>
 
     </footer>
 
